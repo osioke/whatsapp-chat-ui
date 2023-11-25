@@ -1,0 +1,160 @@
+.chatBody {
+    max-width: 412px;
+    max-height: 915px;
+    font-family: sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.top {
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.backArrow {
+    padding-left: 10px;
+    width: 10%;
+    height: fit-content;
+}
+
+.profileImage {
+    width: 10%;
+    height: fit-content;
+}
+
+.dp {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.contactName {
+    width: 50%;
+    height: fit-content;
+}
+
+.videoCall {
+    width: 10%;
+    height: fit-content;
+}
+
+.call {
+    width: 10%;
+    height: fit-content;
+}
+
+.dotMenu {
+    width: 10%;
+    height: fit-content;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/chat\ background.png);
+    padding: 1px 10px 5px 10px;
+}
+
+.chatBubbleLeft {
+    background-color: #075e54;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 0px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 3px;
+    max-width: 80%;
+}
+
+.chatDay {
+    display: flex;
+    justify-content: center;
+}
+
+.chatDayText {
+    background-color: #075e54;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 0px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 5px;
+}
+
+.ownChat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chatBubbleRight {
+    background-color: #25d366;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 0px 0px 0px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 3px;
+    max-width: 80%;
+}
+
+.textField {
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.emojiPicker {
+    padding-left: 10px;
+    width: 10%;
+    height: fit-content;
+}
+
+.typeField {
+    width: 60%;
+    height: fit-content;
+}
+
+.textTypeField {
+    width: 90%;
+}
+
+.attachmentPicker {
+    width: 10%;
+    height: fit-content;
+}
+
+.imagePicker {
+    width: 10%;
+    height: fit-content;
+}
+
+.micButton {
+    padding-right: 10px;
+    width: fit-content;
+    height:fit-content;
+}
